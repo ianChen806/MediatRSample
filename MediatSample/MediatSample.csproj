@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RootNamespace>MediatRSample</RootNamespace>
+        <AssemblyName>MediatRSample</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>

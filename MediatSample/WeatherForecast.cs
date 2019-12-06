@@ -1,6 +1,6 @@
 using System;
 
-namespace MediatorSample
+namespace MediatRSample
 {
     public class WeatherForecast
     {

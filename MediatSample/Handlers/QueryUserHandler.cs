@@ -1,10 +1,10 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using MediatorSample.Models;
 using MediatR;
+using MediatRSample.Models;
 
-namespace MediatorSample.Handlers
+namespace MediatRSample.Handlers
 {
     public class QueryUserHandler : IRequestHandler<QueryUserQuery, QueryUserResponse>
     {

@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using MediatorSample.Handlers;
 using MediatR;
+using MediatRSample.Handlers;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MediatorSample.Controllers
+namespace MediatRSample.Controllers
 {
     public class UserController : ControllerBase
     {

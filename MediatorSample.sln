@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorSample", "MediatorSample\MediatorSample.csproj", "{9038C86C-2418-470D-910B-80B9C30AB41E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatSample", "MediatSample\MediatSample.csproj", "{9038C86C-2418-470D-910B-80B9C30AB41E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

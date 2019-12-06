@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using MediatorSample.Handlers;
+using MediatRSample.Handlers;
 
-namespace MediatorSample.Models
+namespace MediatRSample.Models
 {
     public class TestDbContext : ITestDbContext
     {
