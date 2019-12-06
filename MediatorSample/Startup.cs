@@ -1,8 +1,8 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatorSample.Handlers;
+using MediatorSample.Models;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +30,7 @@ namespace MediatorSample
             services.AddControllers();
 
             services.AddMediatR(typeof(QueryUserHandler).Assembly);
+            services.AddScoped<ITestDbContext, TestDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

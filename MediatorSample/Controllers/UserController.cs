@@ -14,9 +14,18 @@ namespace MediatorSample.Controllers
             _mediator = mediator;
         }
 
+        [HttpPost]
         public async Task<QueryUserResponse> Query(QueryUserQuery query)
         {
-            var response = await _mediator.Send(query);
+            QueryUserResponse response = await _mediator.Send(query);
+
+            return response;
+        }
+
+        [HttpPost]
+        public async Task<Unit> Create(CreateUserCommand command)
+        {
+            Unit response = await _mediator.Send(command);
 
             return response;
         }

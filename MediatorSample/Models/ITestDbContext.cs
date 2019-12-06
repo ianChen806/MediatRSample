@@ -5,6 +5,8 @@ namespace MediatorSample.Models
 {
     public interface ITestDbContext
     {
-        List<User> User { get; set; }
+        List<User> User { get; }
+
+        void Create(User user);
     }
 }
